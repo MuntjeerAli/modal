@@ -10,11 +10,29 @@
 
 </head>
 <body>
+    <div class="wrapper"></div>
+    <form>
+        <div class="start" id="start">
+            <div class="col">
+                <label for="name">First Name</label>
+                <input type="text" id="first-name" placeholder="Enter your First Name" name="name"/>
+            </div>
+            <div class="col">
+                <label for="name">Last Name</label>
+                <input type="text" id="last-name" placeholder="Enter your Last Name" name="name"/>
+            </div>
+            <div class="col">
+                <label for="email">Email Address</label>
+                <input
+                  type="email"
+                  id="email"
+                  placeholder="Enter Email Address" name="email"/>
+            </div>
+        </div> 
+    </form>
     <div class="container">
-        <button id="btn-modal">Open Modal</button>
+        <button id="btn-modal" disabled>Enter Modal</button>
     </div>
-    
-
     <div id="modal" class="modal">
         <div class="modal-content">
             <span class="close"><i class="fa-solid fa-xmark"></i></span>
