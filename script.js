@@ -16,6 +16,8 @@ const checkEnableButton = () => {
       start.value !== 'Choose'
    )
 }
+
+
 firstName.addEventListener('change', checkEnableButton)
 lastName.addEventListener('change', checkEnableButton)
 start.addEventListener('change', checkEnableButton)
